@@ -8,11 +8,13 @@
 <body>
     <h1>CALCULADORA DE OPERACIONES ESPECIALES</h1>
     <p>
-        Bienvenido a la calculadora de operaciones especiales. Aquí podrás realizar 2 operaciones
-        matemáticas muy importantes: la secuencia de Fibonacci y el cálculo del factorial de un número.
-        Selecciona la operación que deseas realizar y sigue las instrucciones.
+        ¡Te damos la bienvenida! Aquí podrás realizar 2 operaciones matemáticas muy importantes:
+        la secuencia de Fibonacci y el cálculo del factorial de un número. Selecciona el botón que
+        contiene la operación que deseas realizar y sigue las instrucciones.
     </p>
-    <button onclick="fibonacci()">Secuencia de Fibonacci</button>
-    <button onclick="factorial()">Factorial de un número</button>
+    <form action="function.php" method="post">
+        <button type="submit" name="accion" value="fibonacci">Secuencia de Fibonacci</button>
+        <button type="submit" name="accion" value="factorial">Factorial del número</button>
+    </form>
 </body>
 </html>
