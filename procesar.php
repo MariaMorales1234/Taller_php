@@ -8,6 +8,9 @@ if ($_SERVER["$REQUEST_METHOD"] == "$_POST"){
     sort($union);
     $interseccion = array_intersect($A, $B);
     sort($interseccion);
-    
+    $diferenciaAB = array_diff($A, $B);
+    sort($diferenciaAB);
+    $diferenciaBA = array_diff($B, $A);
+    sort($diferenciaBA);
 }
 ?>
