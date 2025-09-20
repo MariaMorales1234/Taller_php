@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+
+body {
+    font-family: "Quintessential", cursive;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-image: url(img/background.jpeg);
+    background-size: cover;
+}
+
+h1 {
+    color: green;
+    font-size: 55px;
+    text-align: center;
+    text-shadow: 10px;
+}
+
+p {
+    font-size: 30px;
+    text-align: justify;
+}
+
+button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    font-family: "Quintessential", cursive;
+    border-radius: 12px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: fit-content;
+}
