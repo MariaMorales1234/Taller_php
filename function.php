@@ -22,3 +22,22 @@
     exit;
 }
 ?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Resultados</h1>
+        <p><strong>Promedio:</strong> <?php echo $promedio; ?></p>
+        <p><strong>Media:</strong> <?php echo $media; ?></p>
+        <p><strong>Moda:</strong> <?php echo implode(", ", $moda); ?></p>
+        <a href="index.html"><button>Volver</button></a>
+    </div>
+</body>
+</html>
