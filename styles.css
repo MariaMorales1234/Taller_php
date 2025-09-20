@@ -18,15 +18,39 @@ h1 {
 p {
     font-size: 30px;
     text-align: justify;
+    font-weight: 1000;
 }
 
 button {
     background-color: green;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Quintessential", cursive;
     border-radius: 12px;
     padding: 10px 20px;
     cursor: pointer;
-    width: fit-content;
+}
+
+.cont-botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.operaciones {
+    font-size: 30px;
+    text-align: center;
+    font-weight: 1000;
+}
+
+.bodyphp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: "Quintessential", cursive;
+    margin: 0;
+    font-size: 30px;
 }

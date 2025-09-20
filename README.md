@@ -1,1 +1,1 @@
-# Taller_php
+# Aplicación web que permite calcular Sucesión de Fibonacci o el factorial de un número dado.
