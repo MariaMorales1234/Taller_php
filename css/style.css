@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+body {
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 15px;
+    width: 450px;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: Krona One;
+}
+
+.container h2 {
+    font-family: Krona One;
+    font-size: 30px;
+}
+
+.container form input {
+  width: 80%;
+  padding: 8px;
+  border: 2px solid #AC47FF;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+.container form input:focus {
+    border-color: #65219E;
+    outline: none;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #FF52DC;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #B03098;
+}
+
+.resultado {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.par { 
+    color: #3A9E3F; 
+    font-family: Montserrat Alternates;
+}
+.impar { 
+    color: #A63329; 
+    font-family: Montserrat Alternates;
+}
+.noentero { 
+    color: #FFB500; 
+    font-family: Montserrat Alternates;
+}
