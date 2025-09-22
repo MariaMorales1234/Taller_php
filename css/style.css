@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body {
+    background: #22C1C3;
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    width: 450px;
+    text-align: center;
+}
+
+.container h1 {
+    font-family: Bungee;
+}
+
+.container h2 {
+    font-family: Bungee;
+}
+
+.container form input {
+    width: 80%;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.container form button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ff9f43;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container form button:hover {
+  background-color: #ff6b00;
+}
+
+.resultado {
+  margin-top: 20px;
+  text-align: left;
+}

@@ -1,7 +1,7 @@
 <?php
-if ($_SERVER["$REQUEST_METHOD"] == "$_POST"){
-    $entradaA = $_POST["ConjuntoA"];
-    $entradaB = $_POST["ConjuntoB"];
+if ($_SERVER["$REQUEST_METHOD"] == "POST"){
+    $entradaA = $_POST["conjuntoA"];
+    $entradaB = $_POST["conjuntoB"];
     $A = array_unique(array_map('intval', array_map('trim', explode(",", $entradaA))));
     $B = array_unique(array_map('intval', array_map('trim', explode(",", $entradaB))));
     $union = array_unique(array_merge($A, $B));
