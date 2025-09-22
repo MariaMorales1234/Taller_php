@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TASA+Explorer&display=swap');
 
 body {
     background: #22C1C3;
@@ -22,6 +23,11 @@ body {
     font-family: Bungee;
 }
 
+.container label {
+    font-family: TASA Explorer;
+    font-weight: 400;
+}
+
 .container h2 {
     font-family: Bungee;
 }
@@ -29,23 +35,33 @@ body {
 .container form input {
     width: 80%;
     padding: 8px;
-    border: none;
+    border: 2px solid #74DBF2;
     border-radius: 6px;
     margin-bottom: 15px;
+}
+
+.container form input:focus{
+    border-color: #398191;
+    outline: none;
+}
+
+.container form input::placeholder {
+    font-family: TASA Explorer;
+    font-style: italic;
 }
 
 .container form button {
   padding: 8px 15px;
   border: none;
   border-radius: 6px;
-  background-color: #ff9f43;
+  background-color: #FFB95C;
   color: #fff;
   cursor: pointer;
   font-weight: bold;
 }
 
 .container form button:hover {
-  background-color: #ff6b00;
+  background-color: #FF8338;
 }
 
 .resultado {
