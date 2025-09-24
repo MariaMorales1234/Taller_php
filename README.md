@@ -1,1 +1,1 @@
-# Aplicación que permita construir un árbol binario según su los recorridos preorden, inorden y postorden.
+# Aplicación que permite calcular media, mediana y moda de valores que ingresa el usuario
