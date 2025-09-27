@@ -11,6 +11,22 @@ body {
     margin: 0;
 }
 
+body a {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #FFB95C;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: TASA Explorer;
+    text-decoration: none;
+}
+
+body a:hover {
+    background-color: #FF8338;
+}
+
 .container {
     background: #ffffff;
     padding: 25px;
@@ -58,6 +74,7 @@ body {
   color: #fff;
   cursor: pointer;
   font-weight: bold;
+  font-family: TASA Explorer;
 }
 
 .container form button:hover {
